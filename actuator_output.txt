@@ -1,0 +1,8 @@
+# HELP http_server_requests_seconds
+# TYPE http_server_requests_seconds summary
+http_server_requests_seconds_count{exception="None",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",} 5.0
+http_server_requests_seconds_sum{exception="None",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",} 0.050805191
+http_server_requests_seconds_count{exception="None",method="GET",outcome="SUCCESS",status="200",uri="root",} 12.0
+http_server_requests_seconds_sum{exception="None",method="GET",outcome="SUCCESS",status="200",uri="root",} 0.05761815
+
+Expected /hello here! ^^^
